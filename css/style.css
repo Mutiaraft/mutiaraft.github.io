@@ -1,0 +1,326 @@
+ .html{
+ 	 scroll-behavior: smooth;
+ }
+
+/*css navbar*/
+body{
+	background-color: 	#ada9a9;
+}
+.tinggi{
+	height: 100px;
+	padding:25px;
+}
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
+}
+
+.background-nav {
+	background-color: #ada9a9;
+}
+
+
+.navbar-nav li a{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #716a6a;
+}
+
+.navbar {
+	border: none;
+}
+
+/*css navbar tutup*/
+
+/*css HOME*/
+.home{
+	padding-top: 80px;
+}
+.foto {
+	height: 300px;
+	width: 300px;
+	padding-left: 0;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+ .foto img{
+ 	width: 310px;
+ 	position: absolute;
+ 	top: -190px;
+ 	left: -10px;
+ 	margin-bottom: 120px;
+
+ }
+
+ .tulisan h1{
+ 	font-weight: bold;	
+	font-family: 'Roboto', sans-serif;
+ 	font-size: 80px;
+ }
+.ini{
+	margin:10px;
+}
+ .bulat1{
+ 	border-radius: 50%;
+ 	width: 100px;
+ 	height: 100px;
+ 	background-color:#e83556;
+ 	padding:0 auto;
+ 
+ }
+ .bulat1 p{
+ 	padding-top: 40px;
+ 	text-align: center;
+ 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+
+ }
+ .bulat2{
+ 	border-radius: 50%;
+ 	width: 100px;
+ 	height: 100px;
+ 	background-color : #61d0d4;
+ 	padding:0 auto;
+ 
+ }
+ .bulat2 p{
+ 	padding-top: 40px;
+ 	text-align: center;
+ 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+ }
+  .bulat3{
+ 	border-radius: 50%;
+ 	width: 100px;
+ 	height: 100px;
+ 	background-color:#d1c926;
+ 	padding:0 auto;
+ 
+ }
+ .bulat3 p{
+ 	padding-top: 40px;
+ 	text-align: center;
+ 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	
+
+ }
+
+ .me{
+ 	margin-top: 20px;
+ }
+/*css HOME tutup*/
+
+/*css contact*/
+
+.kontak{
+  background-color: #e83556;
+  padding:35px;
+  color: #fff;
+  margin-top: 50px;
+
+
+
+}
+
+.dikit{
+	text-align: left;	
+	padding-top: 20px;
+}
+
+.logo{
+	width:60px;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	height: 60px;		
+	background-color:#61d0d4; 
+	border-radius:50% ;
+}
+.logo img{
+	width:30px;
+	padding-top: 15px;
+}
+.follow img{
+	width:20px;
+	padding-top: 30px;
+}
+
+/*css contact tutup*/
+
+
+/*css footer*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ada9a9;
+   color: black;
+   padding-top: 10px;
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+   font-family: 'Cormorant Garamond', serif;
+}
+/*css footer tutup*/
+
+
+
+/*CSS PORTOFOLIO*/
+    .judul-porto h1{
+    	
+    	color : black;
+    }
+
+    .portofolio {
+	min-height: 600px;
+	background-color: #ada9a9;
+	}
+	.judul-porto{
+		font-family: 'Roboto Mono', monospace;
+		padding-top: 50px;
+
+	}
+
+    .atas {
+		margin-right: 0 0 10 30px;
+		overflow: hidden;
+		padding: 10px;
+
+	}
+	.bawah{
+		height: 490px;
+		overflow: hidden;
+		padding: 10px;
+	}.ataskn {
+		height: 500px;
+		overflow: hidden;
+		padding: 10px;
+
+
+	}
+	.bawahkn{
+		height: 350px;
+		overflow: hidden;
+		padding: 10px;
+
+
+	}
+	.atas img{
+		width:100%;
+
+
+	}
+	.bawahkn img{
+		width: 100%;
+		border: 2px solid black;
+	}
+	.ataskn img{
+		width:100%;
+	}
+	.bawah img{
+		width: 100%;
+
+	}
+/*CSS PORTOFOLIO*/
+
+
+
+/*Resume*/
+.resume-jarak{
+	margin: 50px 0;
+}
+.judul-resume h1 {
+	font-family: 'Roboto Mono', monospace;
+	color:black;
+	padding-top: 40px;
+}
+.font-tulisan{
+	color:#5d4247;
+}
+.col-md-6 font-tulisan{
+font-family: 'Courgette', cursive;
+font-family: 'Sorts Mill Goudy', serif;	
+}
+.col-md-8 font-tulisan{
+font-family: 'Courgette', cursive;
+font-family: 'Sorts Mill Goudy', serif;	
+}
+.col-md-6 font-tulisan h3 b{
+font-family: 'Roboto Mono', monospace;
+}
+.col-md-10 judul-resume b{
+	font-family: 'Courgette', cursive;
+}
+
+
+/* Page Loader */
+.js .loading::before {
+	content: '';
+	position: fixed;
+	z-index: 100000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--color-bg);
+}
+
+.js .loading::after {
+	content: '';
+	position: fixed;
+	z-index: 100000;
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	height: 60px;
+	margin: -30px 0 0 -30px;
+	pointer-events: none;
+	border-radius: 50%;
+	opacity: 0.4;
+	background: var(--color-link);
+	animation: loaderAnim 0.7s linear infinite alternate forwards;
+}
+
+@keyframes loaderAnim {
+	to {
+		opacity: 1;
+		transform: scale3d(0.5,0.5,1);
+	}
+}
+
+
+a {
+	text-decoration: none;
+	color: var(--color-link);
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	color: var(--color-link-hover);
+}
+
+button:focus,
+a:focus {
+	outline: none;
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+
+/*WOW*/
+/* JANGAN DI BAWAH INI */
+.bulat1:hover .tulisan h1.haha:after{
+ color :red;
+}
+/*WOW*/
