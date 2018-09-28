@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello, I'm Mutiara</title>
+	<link rel="icon"  href="img/favicon.jpg">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- LINK FONT -->
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+<!-- FONT TUTUP -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- JS Smooth Scroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+</head>
+<body>
+
+	<!-- Navbar -->
+	  <!-- Nav -->
+	 <nav class="navbar navbar-inverse background-nav" style="border-bottom: #fff ;">
+		  <div class="tinggi">
+		  <div class="container-fluid ">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="index.html"><img src="img/tlogo.jpg" style="width: 300px;">
+		      </a>
+		    </div>
+
+		    <ul class="nav navbar-nav" style="float:right;color: white; font-size:1.5em; padding-top: 20px">
+		   
+		      <li><a class="active" href="index.html" id="header-text" >HOME</a></li>
+		      <li><a href="resume.html">RESUME</a></li>
+		      <li><a href="portofolio.html">PROJECTS</a></li>
+		      <li><a href="../index.html#kontak" id="header-text" onclick="scrollWin()">CONTACTS</a></li>
+		    </ul>
+		  </div>
+		</div>
+	</nav>
+    <!-- /Nav -->
+
+
+	<!-- PORTO -->
+	<dir class="container">
+		<div class="row">
+					<div class="judul-porto">
+						<div class="col-md-2"></div>
+			<div class="col-md-8" id="atas">
+			<h1><b>Latest Projects</b></h1>
+			<hr>
+			</div>
+		</div>
+		</div>
+
+
+			<dir class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<div class="atas row">
+						<img src="img/hunting/Silouet%20(3).JPG" style="border: 2px solid black;" >
+					</div>
+					<div class="bawah row">
+						<img src="img/hunting/rafi.jpg" style="top:-50px">
+					</div>
+
+				</div>
+				<div class="col-md-4">
+					<div class="ataskn row">
+						 <img src="img/hunting/muti.jpg" style="top:-20px">
+					</div>
+					<div class="bawahkn row">
+						<img src="img/hunting/Portrait.JPG">
+					</div>
+
+				</div>
+
+			</dir>
+		</dir>
+	<!-- AKhir -->
+
+	<!-- Portofolio -->
+	    <section class="portofolio" id="portofolio">
+	    		<div class="container"> 
+			    	
+			    	<div class="row">
+				    		<div class="col-sm-4 foto-porto">
+				    			<a href="" class="thumbnail">
+				    				<img src="img/fdf.png" style="height: 200px; ">
+				    			</a>
+				    		</div>
+				    		<div class="col-sm-4">
+				    			<a href="" class="thumbnail">
+				    				<img src="img/mahdojan.PNG" style="height: 200px; ">
+				    			</a>
+				    		</div>
+				    		<div class="col-sm-4">
+				    			<a href="" class="thumbnail">
+				    				<img src="img/Home.png" style="height: 200px; ">
+				    			</a>
+				    		</div>
+			    	</div>
+
+		    	<div class="row">
+			    		<div class="col-sm-4">
+			    			<a href="" class="thumbnail">
+			    				<img src="img/hunting/rafi2.jpg" style="height: 233px; ">
+			    			</a>
+			    		</div>
+			    		<div class="col-sm-4">
+			    			<a href="" class="thumbnail">
+			    				<img src="img/hunting/Pano1.JPG" style="height: 233px; ">
+			    			</a>
+			    		</div>
+			    		<div class="col-sm-4">
+			    			<a href="" class="thumbnail">
+			    				<img src="img/hunting/Silouet(2).JPG" style="height: 233px; ">
+			    			</a>
+			    		</div>
+		    	</div>
+		    	
+		    	
+		    	<p class="text-center"><a class="btn btn-primary btn-lg text-center" href="#atas" role="button">More Picture</a></p>
+		    </div>
+    	</section>
+    <!-- akhir portofolio -->
+	
+
+	<!-- Footer -->
+	<br><br><br><br><br><br>
+	<div class="footer">
+	  <p style="font-weight:bold;">Copyright (c) 2018 Mutiara Fitri Tasir All Rights Reserved.</p>
+	</div>	
+		<!-- Footer tutup -->
+	<script type="text/javascript" src="js/wow.js"></script>
+	              <script>
+	              new WOW().init();
+	               </script>
+
+
+
+</body>
+</html>
